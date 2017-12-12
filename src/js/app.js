@@ -1,4 +1,6 @@
 import { person, sayHello } from './lib';
+// require('!style-loader!css-loader!./css/style.css');
+require('../css/style.css');
 
 console.log(person.name);
 
